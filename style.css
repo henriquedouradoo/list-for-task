@@ -94,3 +94,36 @@
   #btn-ok:hover{
     background-color: rgb(20, 61, 10);
   }
+
+ .links-container{
+  display: flex;
+  padding: 2rem 3rem;
+  gap: 4rem;
+  margin-top: -4%;
+ }
+
+ .links-container button{
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #4b4b4b;
+  transition: .5s ease;
+ }
+ 
+ .links-container button:hover{
+  background: #b0b0b0;
+  box-shadow: 0 0 20px #0f0f0f;
+ }
+
+ .links-container svg{
+  width: 50%;
+  height: 100%;
+  color: #4b4b4b;
+  cursor: pointer;
+ }
+
+ .links-container a:hover{
+  color: #0f0f0f;
+ }
